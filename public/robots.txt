@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://allcarecargologistics.in/sitemap.xml

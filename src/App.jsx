@@ -303,6 +303,10 @@ function App() {
                 industrial, construction, and supply chain operations across
                 India.
               </p>
+              <p className="mt-4 max-w-2xl text-base leading-7 text-slate-200 [text-shadow:0_2px_14px_rgba(0,0,0,0.55)]">
+                Serving Mumbai, Navi Mumbai, Thane, and Bhiwandi with organized
+                cargo handling, warehousing, and freight transportation support.
+              </p>
               <div className="mt-10 flex flex-col gap-4 sm:flex-row">
                 <a
                   href="#contact"
@@ -354,7 +358,7 @@ function App() {
               <SectionIntro
                 eyebrow="About Allcare"
                 title="Operational reliability for industrial and construction material movement."
-                text="Allcare Cargo Logistics supports industrial, construction, dry powder material, gypsum, and material supply businesses with dependable warehousing, road transport, handling, and distribution coordination from Mumbai to destinations across India."
+                text="Allcare Cargo Logistics supports industrial, construction, dry powder material, gypsum, chemical logistics, and material supply businesses with dependable warehousing, road transport, handling, and distribution coordination from Mumbai, Navi Mumbai, Thane, and Bhiwandi to destinations across India."
               />
               <div className="mt-9 grid gap-4 sm:grid-cols-2">
                 {[
@@ -378,7 +382,7 @@ function App() {
             <SectionIntro
               eyebrow="Services"
               title="Industrial logistics services built for practical material operations."
-              text="From heavy road transport to dry material storage, handling, repacking, inventory support, and dispatch coordination, our work is organized around dependable execution."
+              text="From heavy road transport and freight services to dry material storage, cargo handling, repacking, inventory support, chemical transport coordination, and supply chain dispatch, our work is organized around dependable execution."
             />
             <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
               {services.map(({ icon: Icon, title, text, image }) => (
@@ -412,7 +416,7 @@ function App() {
               <SectionIntro
                 eyebrow="Storage Facilities"
                 title="Warehousing close to key port-side industrial movement."
-                text="Our facilities near JNPT Port support dry material storage, industrial supply operations, material staging, loading, unloading, and dispatch planning for industrial clients."
+                text="Our facilities near JNPT Port support warehousing Mumbai requirements, dry material storage, industrial supply operations, material staging, loading, unloading, and dispatch planning for industrial clients."
               />
               <img
                 src="https://images.unsplash.com/photo-1601598851547-4302969d0614?auto=format&fit=crop&w=1500&q=85"
@@ -601,13 +605,23 @@ function App() {
 
       <footer className="border-t border-slate-200 bg-slate-50">
         <div className="mx-auto flex max-w-7xl flex-col gap-5 px-5 py-8 sm:px-8 md:flex-row md:items-center md:justify-between lg:px-10">
-          <div>
-            <p className="text-lg font-semibold text-[#102334]">
-              Allcare Cargo Logistics
-            </p>
-            <p className="mt-1 text-sm text-slate-600">
-              Industrial transport, warehousing, handling, and dispatch support.
-            </p>
+          <div className="flex items-center gap-4">
+            <span className="flex h-16 w-16 shrink-0 items-center justify-center overflow-hidden rounded border border-slate-200 bg-white p-1.5 shadow-sm sm:h-20 sm:w-20">
+              <img
+                src="/assets/allcare-logo.png"
+                alt="Allcare Cargo Logistics logo"
+                className="h-full w-full object-contain"
+              />
+            </span>
+            <div>
+              <p className="text-lg font-semibold text-[#102334]">
+                Allcare Cargo Logistics
+              </p>
+              <p className="mt-1 max-w-xl text-sm leading-6 text-slate-600">
+                Mumbai-based industrial logistics, warehousing, cargo handling,
+                freight transportation, and supply chain support.
+              </p>
+            </div>
           </div>
           <div className="flex flex-wrap gap-4 text-sm font-medium text-slate-600">
             {navItems.map(([label, id]) => (
