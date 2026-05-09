@@ -115,9 +115,9 @@ const reasons = [
 ];
 
 const contactDetails = [
-  [Phone, "+91 90820 96366"],
+  [Phone, "+91 7977179062"],
   [Mail, "allcarecargologistics@gmail.com"],
-  [MessageCircle, "WhatsApp: +91 90820 96366"],
+  [MessageCircle, "WhatsApp: +91 7977179062"],
 ];
 
 const notificationEmail = "allcarecargologistics@gmail.com";
