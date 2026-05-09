@@ -124,7 +124,7 @@ const notificationEmail = "allcarecargologistics@gmail.com";
 const googleSheetsEndpoint =
   "https://script.google.com/macros/s/AKfycbyCDtyQ6O-kk0vUYwkZhn-AgLBCrX2t0tCXwqC29XfW_KcNgSQTbRgE91TtvpWUKzQryw/exec";
 const whatsappUrl =
-  "https://wa.me/919082096366?text=Hello%20Allcare%20Cargo%20Logistics%2C%20I%20would%20like%20to%20enquire%20about%20your%20logistics%20and%20warehousing%20services.";
+  "https://wa.me/917977179062?text=Hello%20Allcare%20Cargo%20Logistics%2C%20I%20would%20like%20to%20enquire%20about%20your%20logistics%20and%20warehousing%20services.";
 
 function SectionIntro({ eyebrow, title, text, light = false }) {
   return (
